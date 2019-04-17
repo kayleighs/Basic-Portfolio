@@ -25,7 +25,58 @@ header {
     margin: 0 auto;
 }
 
-/* Content */
+#logo
+{
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 550;
+    color:#ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    float: left;
+    text-align: center;
+    padding: 25px 0px;
+    text-decoration:none;
+
+}
+
+.navigation-bar {
+    float: right;   
+    padding: 31px 0;
+    text-align: center;
+}
+
+.navigation-bar li {
+    list-style: none;
+    float:left;
+}
+
+.navigation-bar li a {
+    display: block;
+    text-decoration:none;
+    margin-right: 0px;
+    padding: 0 10px;
+    border-right: 1px solid #dddddd;
+   
+}
+.navigation-bar li:last-child a{
+    border:none;
+}
+
+}
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+a:visited {
+    color: #777777;
+    text-decoration: none;
+
+}
+
+
+/* Content for Index */
 
 .content-box {
     width: 960px;
@@ -83,53 +134,33 @@ footer {
     padding-top: 18px;
 }
 
-#logo
-{
-    background-color: #4aaaa5;
-    width: 250px;
-    height: 80px;
-    font-size: 30px;
-    font-weight: 550;
-    color:#ffffff;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+/*Content for Portfolio*/
+#portfolio-covers {
+    width: 269px;
+    height: 200px;
+    object-fit: cover;
+    margin: 25px 25px 25px 25px;
+    overflow: auto;
+}
+.portfolio-gallery div {
+    position: relative;
     float: left;
+  
+}
+.title {
+    background: #4aaaa5;
+    width: 269px;
+    height: 50px;
     text-align: center;
-    padding: 25px 0px;
-    text-decoration:none;
-
+    position: absolute;
+    color: #ffffff;
+    right: 0;
+    left: 25px;
+    bottom: 35px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 16px 0
 }
 
-.navigation-bar {
-    float: right;   
-    padding: 31px 0;
-    text-align: center;
-}
-
-.navigation-bar li {
-    list-style: none;
-    float:left;
-}
-
-.navigation-bar li a {
-    display: block;
-    text-decoration:none;
-    margin-right: 0px;
-    padding: 0 10px;
-    border-right: 1px solid #dddddd;
-   
-}
-.navigation-bar li:last-child a{
-    border:none;
-}
-
-}
-a:link {
-    color: #777777;
-    text-decoration: none;
-}
-a:visited {
-    color: #777777;
-    text-decoration: none;
-
-}
-
+/*Content-for-Contact*/
